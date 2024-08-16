@@ -114,7 +114,7 @@ function print() {
 
 Very straightforward. This button just opens the user's device's printing menu so they can print a physical copy of their Vue content. I decided to use a print button because I did not want to spend extra time messing with local storage or a full database, especially since I already wasted enough time ramming my head against so many error walls to make this Nuxt-StackBlitz project work. It's the same reason why I put a fixed amount of Vue boxes instead of letting users add more boxes as needed.
 
-### Design choices
+## Design choices
 
 1. I chose the Flavors font for this website to match the *functionally disfunctional* theme. A silly font pairs well with a silly quirk in the project.
 2. The mostly green color palette is an omage to the Nuxt and Vue logos
