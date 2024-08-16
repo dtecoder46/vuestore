@@ -6,7 +6,41 @@ A web service where users can store Vue code and print a copy of all their Vue f
 
 ## Instructions
 
-Go to (insert Github Pages link) to view the website
+
+1. Go to StackBlitz
+2. Create a new Nuxt project
+3. npm install -g pnpm
+4. pnpm add --save-dev @nuxtjs/tailwindcss
+5. pnpm i image
+6. pnpm i @nuxt/fonts
+7. Add this to nuxt.config.ts
+```ts
+modules: [
+  '@nuxtjs/tailwindcss',
+  '@nuxt/fonts',
+  '@nuxt/image',
+]
+```
+8. Copy the code from this Github repo's package.json, remove the old code from the StackBlitz project's package.json, and paste in the repo's code
+7. Add printer.jpeg and vuestore.jpeg from the repo into the StackBlitz project
+6. Create tailwind.config.js and add this:
+```js
+import colors from 'tailwindcss/colors'
+
+export default {
+  theme: {
+    extend: {
+      colors: {
+        'nuxt-green': "#05DB84",
+        'nuxt-mint': "#77F8C9",
+      }
+    }
+  }
+}
+```
+9. Copy the code from the repo's app.vue, remove the StackBlitz project's app.vue code, and paste the repo's Vue code in
+10. The website should be up and running! (you may need to save and refresh the project to load the custom colors)
+
 
 ## Features
 
