@@ -6,6 +6,7 @@ A web service where users can store Vue code and print a copy of all their Vue f
 
 ## Instructions
 
+UPDATE: Only follow these instructions if the link provided on the right doesn't work
 
 1. Go to StackBlitz
 2. Create a new Nuxt project
